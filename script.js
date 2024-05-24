@@ -1,3 +1,4 @@
+
 function createEstrellas() {
     const container = document.querySelector("body");
     for (let i = 0; i < 1000; i++) {
@@ -12,3 +13,5 @@ function createEstrellas() {
     }
   }
   createEstrellas();
+
+

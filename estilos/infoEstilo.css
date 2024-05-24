@@ -1,0 +1,94 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    background-color: black;
+}
+p{
+    color: white;
+}
+.carrusel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px; 
+    margin: 0 auto; 
+    position: relative;
+}
+
+.carrusel img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.carrusel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carrusel button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.botonAn {
+    left: 10px; 
+}
+
+.botonSig {
+    right: 10px; 
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.sistema-solar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.planeta {
+    width: 200px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.planeta:hover {
+    transform: scale(1.05);
+}
+
+.planeta h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.planeta p {
+    font-size: 16px;
+}

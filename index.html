@@ -5,20 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">+
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="./estilos/header.css">
     <title>Sistema Solar</title>
 </head>
 
-<body>
+<body class="bodyIndex">
     <header>
             <nav >
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="./index.html">
                             INICIO
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="./paginas/info.html">
                             INFORMACION
                         </a>
                     </li>
@@ -32,17 +33,17 @@
     </header>
 <div class="contenedor">
     <ul class="listaIzquierda">
-        <li><button class="boton btnSol" id="btn">Sol</button><img src="./imagenes/sol.png" alt="" style="width: 20px; height: 20px;"></li>
-        <li><button class="boton btnMecurio" id="btn">Mercurio</button> <img src="./imagenes/mercurio.png" alt="" style="width: 20px; height: 20px;"></li>
-        <li><button class="boton btnVenus" id="btn">Venus</button> <img src="./imagenes/venus.png" alt="" style="width: 20px; height: 20px;"></li>
-        <li><button class="boton btnTierra" id="btn">Tierra</button> <img src="./imagenes/tierra.png" alt="" style="width: 20px; height: 20px;"></li>
-        <li><button class="boton btnLuna" id="btn">Luna</button> <img src="./imagenes/luna.png" alt="" style="width: 20px; height: 20px;"></li>
-        <li><button class="boton btMartes" id="btn">Martes</button> <img src="./imagenes/marte.png" alt="" style="width: 20px; height: 20px;"></li>
-        <li><button class="boton btnJupiter" id="btn">Jupiter</button> <img src="./imagenes/jupiter.png" alt="" style="width: 20px; height: 20px;"></li>
-        <li><button class="boton btnSturno" id="btn">Saturno</button> <img src="./imagenes/saturno.png" alt="" style="width: 20px; height: 20px;"></li>
-        <li><button class="boton btnUrano" id="btn">Urano</button> <img src="./imagenes/urano.png" alt="" style="width: 20px; height: 20px;"></li>
-        <li><button class="boton btnNeptuno" id="btn">Neptuno</button> <img src="./imagenes/neptuno.png" alt="" style="width: 20px; height: 20px;"></li>
-        <li><button class="boton btnPluton" id="btn">Pluton</button> <img src="./imagenes/pluton.png" alt="" style="width: 20px; height: 20px;"></li>
+        <li><button class="boton" >Sol</button><img src="./imagenes/sol.png" alt="" style="width: 20px; height: 20px;"></li>
+        <li><button class="boton" >Mercurio</button> <img src="./imagenes/mercurio.png" alt="" style="width: 20px; height: 20px;"></li>
+        <li><button class="boton" >Venus</button> <img src="./imagenes/venus.png" alt="" style="width: 20px; height: 20px;"></li>
+        <li><button class="boton" >Tierra</button> <img src="./imagenes/tierra.png" alt="" style="width: 20px; height: 20px;"></li>
+        <li><button class="boton" >Luna</button> <img src="./imagenes/luna.png" alt="" style="width: 20px; height: 20px;"></li>
+        <li><button class="boton" >Marte</button> <img src="./imagenes/marte.png" alt="" style="width: 20px; height: 20px;"></li>
+        <li><button class="boton" >Jupiter</button> <img src="./imagenes/jupiter.png" alt="" style="width: 20px; height: 20px;"></li>
+        <li><button class="boton" >Saturno</button> <img src="./imagenes/saturno.png" alt="" style="width: 20px; height: 20px;"></li>
+        <li><button class="boton" >Urano</button> <img src="./imagenes/urano.png" alt="" style="width: 20px; height: 20px;"></li>
+        <li><button class="boton" >Neptuno</button> <img src="./imagenes/neptuno.png" alt="" style="width: 20px; height: 20px;"></li>
+        <li><button class="boton" >Pluton</button> <img src="./imagenes/pluton.png" alt="" style="width: 20px; height: 20px;"></li>*/
     </ul>
     <div class="container">
         <div class="sol">
@@ -61,21 +62,90 @@
         <div class="pluton"></div>
         
     </div>
-    <ul class="lista">
-        <li>venus</li>
-        <li>martes</li>
-        <li>aa</li>
-        <li>aa</li>
-        <li>aa</li>
-        <li>aa</li>
-        <li>aa</li>
-        <li>aa</li>
-        <li>aa</li>
-        <li>aa</li>
-    </ul>
+    <div class="mostrarInfo">
+        <div class="planeta" id="sol">
+            <img src="./imagenes/sol.png" alt="Sol" style="width: 100px; height: 100px;">
+            <h3>Sol</h3>
+            <p>Tamaño: 1.4 millones de km de diámetro</p>
+            <p>Temperatura superficial: 5,500 °C</p>
+            <p>Composición: Principalmente hidrógeno y helio</p>
+        </div>
+        <div class="planeta" id="mercurio">
+            <img src="./imagenes/mercurio.png" alt="Mercurio" style="width: 100px; height: 100px;">
+            <h3>Mercurio</h3>
+            <p>Tamaño: 4,880 km de diámetro</p>
+            <p>Temperatura: -173°C a 427°C</p>
+            <p>Composición: Rocoso y sin atmósfera significativa</p>
+        </div>
+        <div class="planeta" id="venus">
+            <img src="./imagenes/venus.png" alt="Venus" style="width: 100px; height: 100px;">
+            <h3>Venus</h3>
+            <p>Tamaño: 12,104 km de diámetro</p>
+            <p>Temperatura superficial: 462 °C</p>
+            <p>Composición: Atmosfera densa de dióxido de carbono</p>
+        </div>
+        <div class="planeta" id="tierra">
+            <img src="./imagenes/tierra.png" alt="Tierra" style="width: 100px; height: 100px;">
+            <h3>Tierra</h3>
+            <p>Tamaño: 12,742 km de diámetro</p>
+            <p>Temperatura superficial: -89.2 °C a 56.7 °C</p>
+            <p>Composición: Mayormente rocosa, con una atmósfera rica en nitrógeno y oxígeno</p>
+        </div>
+        <div class="planeta" id="luna">
+            <img src="./imagenes/luna.png" alt="Luna" style="width: 100px; height: 100px;">
+            <h3>Luna</h3>
+            <p>Tamaño: 3,474 km de diámetro</p>
+            <p>Temperatura superficial: -173°C a 127°C</p>
+            <p>Composición: Rocosa, sin atmósfera y sin agua en estado líquido</p>
+        </div>
+        <div class="planeta" id="marte">
+            <img src="./imagenes/marte.png" alt="Marte" style="width: 100px; height: 100px;">
+            <h3>Marte</h3>
+            <p>Tamaño: 6,779 km de diámetro</p>
+            <p>Temperatura superficial: -87 °C a -5 °C</p>
+            <p>Composición: Rocoso, con una delgada atmósfera de dióxido de carbono</p>
+        </div>
+        <div class="planeta" id="jupiter">
+            <img src="./imagenes/jupiter.png" alt="Júpiter" style="width: 100px; height: 100px;">
+            <h3>Júpiter</h3>
+            <p>Tamaño: 139,822 km de diámetro</p>
+            <p>Temperatura superficial: -145 °C</p>
+            <p>Composición: Principalmente hidrógeno y helio, con una atmósfera rica en nubes</p>
+        </div>
+        <div class="planeta" id="saturno">
+            <img src="./imagenes/saturno.png" alt="Saturno" style="width: 100px; height: 100px;">
+            <h3>Saturno</h3>
+            <p>Tamaño: 116,464 km de diámetro</p>
+            <p>Temperatura superficial: -178 °C</p>
+            <p>Composición: Principalmente hidrógeno y helio, con anillos espectaculares</p>
+        </div>
+        <div class="planeta" id="urano">
+            <img src="./imagenes/urano.png" alt="Urano" style="width: 100px; height: 100px;">
+            <h3>Urano</h3>
+            <p>Tamaño: 50,724 km de diámetro</p>
+            <p>Temperatura superficial: -224 °C</p>
+            <p>Composición: Principalmente hidrógeno y helio, con una inclinación axial extrema</p>
+        </div>
+        <div class="planeta" id="neptuno">
+            <img src="./imagenes/neptuno.png" alt="Neptuno" style="width: 100px; height: 100px;">
+            <p>Información sobre Neptuno</p>
+            <h3>Neptuno</h3>
+            <p>Tamaño: 49,244 km de diámetro</p>
+            <p>Temperatura superficial: -218 °C</p>
+            <p>Composición: Principalmente hidrógeno, helio y metano, con una atmósfera dinámica</p>
+        </div>
+        <div class="planeta" id="pluton">
+            <img src="./imagenes/pluton.png" alt="Plutón" style="width: 100px; height: 100px;">
+            <h3>Plutón</h3>
+            <p>Tamaño: 2,377 km de diámetro</p>
+            <p>Temperatura superficial: -233 °C</p>
+            <p>Composición: Principalmente rocosa, con una órbita excéntrica y una luna grande, Caronte</p>
+        </div>
+    </div>
 </div>
 
     <script src="./script.js"></script>
+    <script src="./scrip/index.js"></script>
 </body>
 
 </html>
